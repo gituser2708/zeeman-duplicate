@@ -215,7 +215,7 @@ def init():
 	tkRoot = tk.Tk()
 	tkRoot.title("Zeeman-effect Simulator")
 	tkRoot.resizable(False, False)
-	tkRoot.iconbitmap('./static/icon.ico')
+	# tkRoot.iconbitmap('./static/icon.ico')
 	tkRoot.geometry("800x600")	
 
 	# Load light source data
